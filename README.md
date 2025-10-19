@@ -51,9 +51,9 @@ The solution is organized into three S3 zones managed by Lambda functions:
 | Architecture | Event-driven Serverless Data Lake |
 
 ---
-```text
-## 📂 Repository Structure
 
+## 📂 Repository Structure
+```text
 aws-serverless-data-lake/
 │
 ├── lambda/
