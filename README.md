@@ -49,22 +49,3 @@ The solution is organized into three S3 zones managed by Lambda functions:
 | Programming | Python (Faker, Pandas, Boto3) |
 | Data Zones | Raw → Processed → Consumption |
 | Architecture | Event-driven Serverless Data Lake |
-
----
-
-## 📂 Repository Structure
-```text
-aws-serverless-data-lake/
-│
-├── lambda/
-│ ├── data_generator.py
-│ ├── data_processor.py
-│ └── promotion_app.py
-│
-├── results/
-│ ├── cart_abandonment_data_sample.csv
-│ ├── cart_aggregated_data_sample.csv
-│ └── promotion_data_sample.csv
-│
-├── architecture-diagram.png
-└── README.md
